@@ -82,7 +82,7 @@ export class PokemonService {
     // const pokemon = await this.findOne( id );
     // await pokemon.deleteOne();
     // return { id };
-    //const result = await this.pokemonModel.findByIdAndDelete( id );
+    // const result = await this.pokemonModel.findByIdAndDelete( id );
     const { deletedCount } = await this.pokemonModel.deleteOne({ _id: id });
 
     if(deletedCount === 0) {
