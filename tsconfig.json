@@ -1,6 +1,5 @@
 {
-  "compilerOptions": {
-    "ignoreDeprecations": "6.0",
+  "compilerOptions": {    
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "resolvePackageJsonExports": true,
